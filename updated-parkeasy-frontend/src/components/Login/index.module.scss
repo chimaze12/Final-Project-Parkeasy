@@ -1,0 +1,109 @@
+@import "../../sass/values";
+@import url("../../assets/fonts/fontsheet.css");
+.LogIn {
+  font-family: "Avenir Next LT Pro";
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: stretch;
+  font-size: 14px;
+  @media screen and (max-width: 928px) {
+    flex-direction: column;
+  }
+  &__left {
+    padding: 100px 60px;
+    @media screen and (max-width: 928px) {
+      padding: 50px 30px;
+      margin: 0px;
+      // overflow: hidden;
+      gap: 0px;
+    }
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    &__illustration {
+      width: 100%;
+      margin-top: 60px;
+      @media screen and (max-width: 928px) {
+        margin-top: 0;
+      }
+    }
+    &__logo {
+      @media screen and (max-width: 928px) {
+        display: none;
+        margin: 0;
+        padding: 0px;
+      }
+    }
+  }
+  &__right {
+    flex-basis: 45%;
+    padding: 100px 60px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    @media screen and (max-width: 928px) {
+      padding: 40px;
+    }
+    justify-content: center;
+    @media screen and (max-width: 928px) {
+      align-self: auto;
+    }
+    @media screen and (min-width: 929px) {
+      box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+    }
+    &__heading {
+      color: $log-in-heading;
+      font-weight: 700;
+      font-size: 46px;
+      margin-left: -5px;
+    }
+    &__details {
+      @media screen and (max-width: 928px) {
+        margin-bottom: 15px;
+      }
+      font-weight: 400;
+      color: $log-in-text;
+    }
+    &__form {
+      width: 80%;
+      @media screen and (max-width: 928px) {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+        input {
+          padding-inline: 20px;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 50px;
+      &__forgot {
+        margin-top: 10px;
+        color: $log-in-button;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        letter-spacing: 1.6px;
+        margin-right: auto;
+      }
+      &__button {
+        background-color: $log-in-button !important;
+        color: white;
+        z-index: 20;
+        font-weight: 800;
+        padding-block: 15px;
+        border-radius: 8px;
+        transition: background-color 500ms ease-in-out;
+        &:hover {
+          background-color: $log-in-button-hover !important;
+        }
+      }
+    }
+  }
+}
+.h3 {
+  margin-left: 41%;
+}

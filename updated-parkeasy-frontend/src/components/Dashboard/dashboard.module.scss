@@ -1,0 +1,93 @@
+@import "../../sass/values";
+@import url("../../assets/fonts/fontsheet.css");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard {
+  @media screen and (max-width: 928px) {
+    width: 100%;
+  }
+  width: 44%;
+  background-color: rgb(244, 236, 236);
+  &__timebar {
+    margin-top: 1%;
+    // margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    &__el {
+      font-weight: bold;
+      border: solid;
+      border-right: 0ch;
+      border-left: 0ch;
+      border-top: 0ch;
+      border-color: transparent;
+      cursor: pointer;
+    }
+  }
+
+  &__subhero {
+    margin: 2%;
+    margin-left: 7%;
+    align-self: center;
+    font-size: medium;
+    font-weight: bold;
+  }
+}
+
+.closestParkTab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  &__button {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: rgb(59, 178, 208);
+    margin-top: 7%;
+    padding: 2%;
+    height: 50%;
+    font-size: large;
+    font-weight: bold;
+    border-color: rgb(59, 178, 208);
+  }
+}
+
+.closestPark {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: solid 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 3%;
+  padding: 2%;
+  border-color: rgb(138, 138, 203);
+  background-color: rgb(138, 138, 203);
+
+  &__a {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+  }
+  &__b {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+  }
+  &__c {
+    color: black;
+    font-weight: bold;
+    margin: auto;
+  }
+  &__favId {
+    display: none;
+  }
+}
+
+

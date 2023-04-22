@@ -1,0 +1,1 @@
+This Application helps Users find closest parking locations in Calgary, Canada  closest to their location and directs with the aid of map navigation  and also displays Estimated time of arrival, distance and other useful trip information

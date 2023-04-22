@@ -1,0 +1,6 @@
+.mapcontainer {
+  width: 100vw;
+  @media screen and (max-width: 928px) {
+    display: none;
+  }
+}

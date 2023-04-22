@@ -1,0 +1,59 @@
+.Input {
+  width: 100%;
+  --border-top-left-radius: 5px;
+  --border-top-right-radius: 5px;
+  --border-bottom-left-radius: 5px;
+  --border-bottom-right-radius: 5px;
+}
+.Input__input {
+  border: 2px solid rgba(84, 95, 125, 0.1490196078);
+  width: 100%;
+  padding: 15px 40px;
+  border-top-left-radius: var(--border-top-left-radius);
+  border-top-right-radius: var(--border-top-right-radius);
+  border-bottom-left-radius: var(--border-bottom-left-radius);
+  border-bottom-right-radius: var(--border-bottom-right-radius);
+  outline: none;
+  color: #000;
+}
+.Input__icon {
+  margin: 2%;
+  color: rgb(59, 178, 208);
+}
+.Input__input:focus {
+  border: 2px solid rgba(84, 95, 125, 0.5019607843);
+  outline: none;
+}
+.searchbox {
+  display: flex;
+  flex-direction: row;
+  margin-right: 4%;
+  background-color: white;
+  border: 2px solid rgba(84, 95, 125, 0.1490196078);
+  border-top-left-radius: var(--border-top-left-radius);
+  border-top-right-radius: var(--border-top-right-radius);
+  border-bottom-left-radius: var(--border-bottom-left-radius);
+  border-bottom-right-radius: var(--border-bottom-right-radius);
+}
+.Input__error {
+  color: #e4033b;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 1.6px;
+  transition: all 500ms ease-in-out;
+  margin-top: 15px;
+}
+.Input__label {
+  color: rgb(24, 88, 104);
+  font-weight: bold;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  background-color: white;
+  display: inline-block;
+  width: fit-content;
+  padding: 0 8px 0 8px;
+}
+
+/*# sourceMappingURL=index.module.css.map */

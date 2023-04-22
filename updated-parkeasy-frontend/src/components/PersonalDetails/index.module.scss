@@ -1,0 +1,28 @@
+@import "../../sass/values";
+@import url("../../assets/fonts/fontsheet.css");
+.PersonalDetails {
+  height: 40%;
+  &__stats {
+    margin: 2% 3% 0 3%;
+    margin-left: 40%;
+   
+
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: rgb(205, 205, 239);
+
+    // background-color: rgb(205, 205, 239);
+    &__header {
+      font-weight: bold;
+      // margin-top: 2%;
+      margin-left: 1%;
+    }
+    &__data {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      // margin: -2% 4% -2% 4%;
+      font-weight: 500;
+    }
+  }
+}

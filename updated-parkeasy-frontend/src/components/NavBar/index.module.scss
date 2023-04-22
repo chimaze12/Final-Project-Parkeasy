@@ -1,0 +1,125 @@
+@import "../../sass/values";
+@import url("../../assets/fonts/fontsheet.css");
+.navbar {
+  background-color: rgb(59, 178, 208);
+
+  display: flex;
+
+  &__profile {
+    position: relative;
+    margin-right: 2%;
+
+    &__avatar {
+      font-size: xx-large;
+      color: white;
+      margin-top: 10px;
+    }
+
+    &__dropdown {
+      // border: solid 1px red;
+      position: absolute;
+      bottom: -5rem;
+      left: -6rem;
+      z-index: 3;
+      background-color: white;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 3px 3px 7px #00000094;
+    }
+  }
+
+  &__logout {
+    margin: 8px 0 8px 0;
+    padding: 5px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(138, 138, 203);
+    border: solid 1px;
+    border-radius: 4px;
+
+    border-color: rgb(138, 138, 203);
+
+    text-align: center;
+    font-weight: bold;
+    background-color: tomato;
+  }
+
+  &__balance {
+    font-size: large;
+    margin-right: 2%;
+    margin-top: 12px;
+    font-weight: bold;
+    color: rgb(160, 236, 160);
+  }
+
+  &__logo {
+    height: 7%;
+    width: 100%;
+    &__icon {
+      width: 20%;
+      margin-left: 13%;
+      font-weight: bold;
+      color: white;
+      font-size: large;
+
+      height: 7px;
+    }
+    &__ico {
+      width: 25%;
+      margin-left: 12%;
+      font-weight: bold;
+      color: white;
+      font-size: xx-large;
+    }
+  }
+
+  &__deposit {
+    &__button {
+      margin-top: 8px;
+      margin-right: 20px;
+      color: white;
+      background-color: rgb(138, 138, 203);
+      border: solid 1px;
+      border-radius: 4px;
+      padding: 4%;
+      border-color: rgb(138, 138, 203);
+      width: 154px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    &__form {
+      margin-right: 10px;
+      &__input {
+        margin: 2% 0 2% 0;
+        border: solid 1px;
+        border-radius: 4px;
+        border-color: rgb(138, 138, 203);
+      }
+
+      &__buttonDiv {
+        display: flex;
+
+        flex-direction: row;
+        justify-content: space-around;
+
+        &__submit {
+          background-color: rgb(138, 138, 203);
+          color: white;
+          border: solid 1px;
+          border-radius: 4px;
+          padding: 0 4% 0 4%;
+          border-color: rgb(138, 138, 203);
+        }
+        &__cancel {
+          background-color: rgb(148, 11, 11);
+          color: white;
+          border: solid 1px;
+          border-radius: 4px;
+          padding: 0 4% 0 4%;
+          border-color: rgb(148, 11, 11);
+        }
+      }
+    }
+  }
+}

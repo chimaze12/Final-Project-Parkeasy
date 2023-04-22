@@ -1,0 +1,7 @@
+venv
+__pycache__
+**/*.pyc
+**__pycache__
+parkeasy-backend.zip
+templates
+.idea
