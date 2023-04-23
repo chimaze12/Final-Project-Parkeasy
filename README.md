@@ -11,4 +11,10 @@ For this project, we used Django framework for the backend and React (html, SCSS
 
 
 ## **Files in Project**
-The project is split into two sections; a folder for the frontend snd s
+The project is split into two sections; a folder for the frontend and another for the backend. 
+
+
+## **How to Run Project**
+To run the project, you first need to ensure you have node 18 and python 3.11 or higher installed on your machine. On your terminal, navigate to the Updated-backend directory and create a virtual environment (running `python -m venv venv`). Inside the environment, run `pip install -r requirements.txt` to install all the required dependencies for the Django framework. After I this installation, run `python manage.py runserver` to start the local server enabled by Django for the web app. When you confirm that the server is running fine, navigate to the updated-parkeasy-frontend folder on your terminal and run npm install, after Which, run  npm start. Following these processes will launch the app on your default browser showing you the login page as the initial landing page.
+
+
