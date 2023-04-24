@@ -16,13 +16,20 @@ The project is split into two sections; a folder for the frontend and another fo
 
 ## **How to Run Project**
 To run the project, you first need to ensure you have node 18 and python 3.11 or higher installed on your machine. On your terminal, navigate to the Updated-backend directory and create a virtual environment (running `python -m venv venv`). Inside the environment, run `pip install -r requirements.txt` to install all the required dependencies for the Django framework. After I this installation, run `python manage.py runserver` to start the local server enabled by Django for the web app. You should see this page on your browser when you open the provided port address ![server](https://github.com/chimaze12/Final-Project-Parkeasy/blob/master/images-for-readme/Server1.png).
-When you confirm that the server is running fine on your browser as shown in the image above, navigate to the updated-parkeasy-frontend folder on your terminal and run `npm install`, after Which, run  `npm start`. Following these processes will launch the app on your default browser showing you the login page as the initial landing page. The follwoing are images showing the webapp
+When you confirm that the server is running fine on your browser as shown in the image above, navigate to the updated-parkeasy-frontend folder on your terminal and run `npm install`, after Which, run  `npm start`. Following these processes will launch the app on your default browser showing you the login page as the initial landing page. The follwoing are images showing the webapp in working:
 ![Login](https://github.com/chimaze12/Final-Project-Parkeasy/blob/master/images-for-readme/Sample1.png)
+
+
+
+Image of the registration page:
 
 ![Registration](https://github.com/chimaze12/Final-Project-Parkeasy/blob/master/images-for-readme/sample2.png)
 
+
+
+Image of the homepage without the navigation:
 ![Homepage Without Navigation Route](https://github.com/chimaze12/Final-Project-Parkeasy/blob/master/images-for-readme/homepgage.png)
 
-
+With the navigation route:
 ![Homepage With Navigation](https://github.com/chimaze12/Final-Project-Parkeasy/blob/master/images-for-readme/homepage%202.png)
 
