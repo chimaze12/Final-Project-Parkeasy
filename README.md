@@ -11,7 +11,7 @@ For this project, we used Django framework for the backend and React (html, SCSS
 
 
 ## **Files in Project**
-The project is split into two sections; a folder for the frontend and another for the backend. The Updated-backend folder contains the entire app, server, and database/models configurations enabled by the Django framework. Basically handles the core architecture of the webapp.It has a `requirements.txt` file which contains all the dependecies that is needed to be installed before running the project on your local machine. It has has the a `manage.py` file that runs the local server. The other folder, `updated-parkeasy-frontend` , contains all the features of the user interface in separate component folders, which allow for easy manipulation of the frontend at a later time.
+The project is split into two sections; a folder for the frontend and another for the backend. The Updated-backend folder contains the entire app, server, and database/models configurations enabled by the Django framework. It basically handles the core architecture of the webapp. There's a `requirements.txt` file which contains all the dependecies that is needed to be installed before running the project on your local machine. It has has a `manage.py` file that runs the local server. The other folder, `updated-parkeasy-frontend`, contains all the features of the user interface in separate component folders, which allow for easy manipulation of the frontend at a later time.
 
 
 ## **How to Run Project**
